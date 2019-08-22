@@ -70,6 +70,7 @@ while (True):
                 cv2.line(frame, center_points[i-1], center_points[i], (b, g, 0), 4, cv2.LINE_AA)
         
         # showing the frames
+
         cv2.imshow('frame', frame)
         cv2.imshow('image', image)
         
